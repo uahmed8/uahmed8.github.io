@@ -41,3 +41,609 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+.header img {
+  float: left;
+  width: 1px;
+  height: 1px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+body { 
+    padding: 0;
+    margin: 0; 
+} 
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: table;
+  width: 100%;
+}
+.row1 {
+  display: table;
+  width: 280%;
+}
+.row2 {
+  display: table;
+  width: 280%;
+}
+.columnp {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+.columnwone {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  }
+ .columnwtwo {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  } 
+  .columnw2one {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  }
+ .columnw2two {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  } 
+.columnw3one {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+}
+.columnw33two {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.columnw3two {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+}  
+  
+.textonw1{
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.textonw2{
+	position: absolute;
+	top: 45%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.textonw3{
+	position: absolute;
+	top: 124%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.textonw4{
+	position: absolute;
+	top: 124%;
+	left: 74%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.textonw5{
+	position: absolute;
+	top: 187%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.textonw6{
+	position: absolute;
+	top: 187%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.textonw7{
+	position: absolute;
+	top: 335%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+  
+.columnwone:hover .textonw1 {
+  visibility: visible;
+  opacity: 1;
+}
+.columnwtwo:hover .textonw2 {
+  visibility: visible;
+  opacity: 1;
+}
+.columnw2one:hover .textonw3 {
+  visibility: visible;
+  opacity: 1;
+}
+.columnw2two:hover .textonw4 {
+  visibility: visible;
+  opacity: 1;
+}
+.columnw3one:hover .textonw5 {
+  visibility: visible;
+  opacity: 1;
+}
+.columnw3two:hover .textonw6 {
+  visibility: visible;
+  opacity: 1;
+}
+.columnw33two:hover .textonw7 {
+  visibility: visible;
+  opacity: 1;
+}
+  .columnVilla1 {
+	background-size: cover;
+	background-position: center center;
+	width: 50%;
+	float: left;
+	padding: 5px;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  }
+.columnVilla2 {
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+  .columnVilla3 {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+.column21 {
+	background-size: cover;
+	background-position: center center;
+	width: 50%;
+	float: left;
+	padding: 5px;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+.column22 {
+	background-size: cover;
+	background-position: center center;
+	width: 50%;
+	float: right;
+	padding: 5px;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  }
+  .columnvilla1 {
+	background-size: cover;
+	background-position: center center;
+	height: 443px;
+	width: 65%;
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+  .columnvilla2 {
+	background-size: cover;
+	background-position: center center;
+	height: 443px;
+	width: 50%
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+.column1 {
+	background-size: cover;
+	background-position: center center;
+	height: 443px;
+	width: 65%;
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+.column2 {
+  float: left;
+  width: 35%;
+  height: auto;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  }
+  
+.columnone {
+	  background-size: cover;
+  background-position: center center;
+  height: 443px;
+  width: 50%;
+  
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  }
+.columntwo {
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  }
+  .column2one {
+	  	  background-size: cover;
+  background-position: center center;
+  height: auto;
+  width: 65%;
+    float: left;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+  }
+  
+.column2two {
+		  background-size: cover;
+  background-position: center center;
+  height: 843px;
+  width: 35%;
+  height:100%;
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+}
+.column3one {
+  float: left;
+  width: 33%;
+  height:100%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+}
+ .column3two {
+	 		  background-size: cover;
+  background-position: center center;
+  height: 843px;
+  width: 67%;
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+}
+ .column33one {
+  float: left;
+  width: 37%;
+  height:100%;
+  padding: 5px;
+  overflow: hidden;
+  display: table-cell;
+}
+.col {
+  float: left;
+  width: 43.99%;
+  padding: 5px;
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
+}
+
+#footer {
+width: 100%;
+height: 28px;
+border-top: 1px solid #E0E0E0;
+position: absolute;
+text-align: center; 
+font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+} 
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-right {
+  float: right;
+  width: 36%;
+
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
+}
+
+.aboutheading{
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
+}
+
+.top-sideleft{
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+
+
+.texton1{
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.texton2{
+	position: absolute;
+	top: 45%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.texton3{
+	position: absolute;
+	top: 128%;
+	left: 33%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.texton4{
+	position: absolute;
+	top: 151%;
+	left: 84%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.texton5{
+	position: absolute;
+	top: 203%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.texton6{
+	position: absolute;
+	top: 203%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.texton7{
+	position: absolute;
+	top: 241%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+	transition: opacity .2s, visibility .2s;
+}
+.columnone:hover .texton1 {
+  visibility: visible;
+  opacity: 1;
+}
+.columntwo:hover .texton2 {
+  visibility: visible;
+  opacity: 1;
+}
+.column2one:hover .texton3 {
+  visibility: visible;
+  opacity: 1;
+}
+.column2two:hover .texton4 {
+  visibility: visible;
+  opacity: 1;
+}
+.column3one:hover .texton5 {
+  visibility: visible;
+  opacity: 1;
+}
+.column33one:hover .texton7 {
+  visibility: visible;
+  opacity: 1;
+}
+.column3two:hover .texton6 {
+  visibility: visible;
+  opacity: 1;
+}
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+}
+
+.box {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.boxed {
+  border: 40px solid black ;
+  padding: 20px;
+  width:50%;
+}
+
+
+.container {
+	position:relative;
+	border: 20px solid black ;
+	background-color:black;
+	background-size: cover;
+	background-position: center center;
+	height: 343px;
+	width: 31%;
+	left:11%;
+	top:11%;
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+	display: table-cell;
+}
+
+.columncont1 {
+	background-size: cover;
+	background-position: center center;
+	width: 49%;
+
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+	display: table-cell;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  }
+q{
+
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+}
+
+h2{
+	color:white;
+	text-align:center;
+	font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+}
+input[type="button"] {
+    width: 380px;
+	height:30px;
+}
+textarea[class="textbox1"] {
+    width: 380px;
+	height: 30px;
+	padding: 1px
+}
+textarea[class="textbox2"] {
+    width: 380px;
+	height: 30px;
+	padding: 1px
+}
+textarea[class="messagebox"] {
+    width: 380px;
+	height: 150px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; 
+  font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700;
+}
+
+#footer {
+    border-top: 0 none;
+}
+
+
+
