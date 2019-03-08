@@ -20,6 +20,43 @@
 		  </nav>
 		-->
 		
+		<header class="m-menu">
+        <div class="l-row">
+            <div class="l-col--noPaddingLeft m-menu--a">
+                <a class="m-headerIcon" href="" ng-event-track="">
+                    <svg>
+                        <use xlink:href=""></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="l-col--noPaddingRight c-right m-menu--b">
+                <div class="m-menuIcon--mobile m-menuIcon--trigger" ng-click="menuToggle()">
+						<span>
+							Menu
+						</span>
+                    <div class="m-menuIcon">
+                        <span class="m-hamburger"></span>
+                    </div>
+                </div>
+                <ul class="m-list--mainMenu">
+                    <li>
+                        <a href="#download-section">Download</a>
+                    </li>
+                    <!--<li>-->
+                        <!--<a href="./benchmarks.html">Leaderboard</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="./wad-2018.html">WAD 2018</a>
+                    </li>
+                    <li class="dropdown">
+                        <a id="username" onclick="dropdownClick()">User</a>
+                        <div class="dropdown-content" id="myDropdown"><a href="login.html">Login</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+		<!--
 		<header>
 		<!-- Navigation -->
 			<nav class="navbar">
@@ -30,7 +67,7 @@
 			  </div>
 			</nav>
 		</header>
-		
+		-->
 
 		<div id="col-1">
 		  <h1>Video Data</h1>
